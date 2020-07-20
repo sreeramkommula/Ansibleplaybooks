@@ -1,4 +1,6 @@
 ---
-- name: This command will change the working directory to somedir/.
-  shell:
-     cmd: ls
+- hosts: 172.22.110.190
+  tasks:
+   - name: This command will change the working directory to somedir/.
+     shell:
+        cmd: ls
